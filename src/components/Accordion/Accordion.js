@@ -51,7 +51,7 @@ const APIResponse = [
 ];
 
 export default function Accordion() {
-  const [accordionData, setAccordionData] = useState(
+  const [accordionData] = useState(
     APIResponse.reduce((prev, current) => {
       if (prev[current.provider]) {
         prev[current.provider].push({ name: current.name });
