@@ -1,0 +1,43 @@
+.container {
+    border: 1px solid #000;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header {
+    font-weight: bold;
+    padding: 0 0 12px;
+}
+
+.user {
+    padding: 0 0 6px;
+}
+
+.openButton {
+    border: 1px solid #000;
+    background: #e3e3e3;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-top: -8px;
+}
+
+.sign {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.sign:active {
+    background: #b9b7b7;
+}
